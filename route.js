@@ -5,7 +5,7 @@ const fs = require('fs');
 const AWS = require('aws-sdk');
 const s3 = new AWS.S3({
   accessKeyId: 'AKIAZCXEXFB7A3ZEVHX4',
-  secretAccessKey: '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'
+  secretAccessKey: ''
 });
 
 routes.post('/login', function(req,res) {
